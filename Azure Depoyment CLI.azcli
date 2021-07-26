@@ -1,0 +1,11 @@
+
+#Login to the environment
+az login
+
+# Set default subscription
+
+az account set --subscription "AzureTraining"
+
+# Set default resource group
+
+az configure --defaults group="sb-bicep" #resource group name
